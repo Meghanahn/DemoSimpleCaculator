@@ -27,10 +27,10 @@ public void doGet(HttpServletRequest request, HttpServletResponse response) thro
 		   result=n1+n2;
 		 }
 		if(opr.equals("sub")) {
-		  result=n1*n2;
+		  result=n1-n2;
 		  }
 		if(opr.equals("mul")) {
-		  result=n1-n2;
+		  result=n1*n2;
 		  }
 		if(opr.equals("div")) {
 		  result=n1/n2;
